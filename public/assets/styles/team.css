@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    background: #F9F9F9;
+}
+
+.logo-header{
+    margin: 0 12vw 0 12vw;
+}
+
+.navigation{
+    position: absolute;
+    top: 100%;
+    left: 0%;
+}
+
+.overflow{
+    overflow-y: hidden
+}
+
+
+/*MAIN*/
+
+.team{
+    width: 100vw;
+    height: 100%;
+    margin: 50px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    color: #0F354D;
+}
+
+.image-team{
+    background: url('../images/arnaud_skieur.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    border: 2px solid #0F354D;
+    overflow: hidden;
+    width: 120px;
+    height: 175px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+}
+
+section.identity-container{
+    width: 80%;
+    height: 175px;
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section.identity-container h2{
+    margin: 0;
+    color: #0F354D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+section.identity-container h4{
+    margin: 0;
+    color: #43637E;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.identity{
+    width: 50%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
