@@ -2,4 +2,4 @@
 
 $title = 'Welcome';
 
-include '../views/pages/welcome.php';
+include 'views/pages/welcome.php';
