@@ -13,4 +13,4 @@ foreach($medocs as $_medocs){
     array_push($name, $temp);
 };
 
-include '../views/pages/medocs.php';
+include 'views/pages/medocs.php';
