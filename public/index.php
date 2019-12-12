@@ -18,6 +18,10 @@ else if ($q == 'contact')
 {$controller = 'contact';}
 else if ($q == 'team')
 {$controller = 'team';}
+else if ($q == 'search')
+{$controller = 'search';}
+else if ($q == 'medocs')
+{$controller = 'medocs';} 
 
  
 //include controller
