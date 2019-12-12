@@ -1,4 +1,4 @@
 <?php
 $title = 'Team';
 
-include '../views/pages/team.php';
+include 'views/pages/team.php';
