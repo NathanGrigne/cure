@@ -3,16 +3,6 @@ body{
     background: #F9F9F9;
 }
 
-.logo-header{
-    margin: 0 12vw 0 12vw;
-}
-
-.navigation{
-    position: absolute;
-    top: 100%;
-    left: 0%;
-}
-
 .overflow{
     overflow-y: hidden
 }
