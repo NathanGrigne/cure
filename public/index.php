@@ -6,14 +6,18 @@ require '../database/database.php';
 define ('URL','http://localhost:8888/');
 
 //Get q param
-$q = !empty($_GET['q']) ? $_GET['q'] : 'home';
+$q = !empty($_GET['q']) ? $_GET['q'] : 'welcome';
 //define controller
 $controller = '404';
 
-if($q == 'home')
+if($q == 'welcome')
+{$controller = 'welcome';} 
+else if ($q == 'home')
 {$controller = 'home';} 
-// else if ($q == 'about')
-// {$controller = 'about';} 
+else if ($q == 'contact')
+{$controller = 'contact';}
+else if ($q == 'team')
+{$controller = 'team';}
 
  
 //include controller
