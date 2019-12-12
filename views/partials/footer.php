@@ -1,6 +1,6 @@
     <footer>
         
     </footer>
-    <script src="<?= URL ?>assets/script.js"></script>
+    <script src="<?= URL ?>assets/scripts/script.js"></script>
 </body>
 </html>
