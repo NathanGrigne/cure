@@ -1,12 +1,11 @@
-<?php include '../views/partials/header.php' ?>
-<link rel="stylesheet" href="<? URL ?>assets/styles/home.css">
+<?php include './views/partials/header.php' ?>
 
     <main>
         <div class="containerIllustrationSearch">
             <div class="illustrationSearch">
             </div>
             <div class="containerScrollProject">
-                <h1>Notre Project</h1>
+                <h1>Notre Projet</h1>
                 <div class="scrollImage">
                 </div>
             </div>
@@ -58,4 +57,4 @@
         </div>
     </main>
 
-<?php include '../views/partials/footer.php' ?>
+<?php include './views/partials/footer.php' ?>
