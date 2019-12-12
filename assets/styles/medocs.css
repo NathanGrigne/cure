@@ -1,0 +1,118 @@
+/**
+**MAIN
+**/
+
+/**
+**IdentyCard
+**/
+.containerCardIdentity h1 {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #0F354D;
+}
+.containerCardIdentity .containerIdentityMedic {
+    margin: 20px;
+    background-color: #0F354D;
+    border-radius: 5px;
+}
+
+.containerCardIdentity .containerIdentityMedic .identityMedic {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+ 
+}
+.containerCardIdentity .containerIdentityMedic .identityMedic .leftIdenty, .rightIdenty {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.containerCardIdentity .containerIdentityMedic .identityMedic .leftIdenty .checkTrueFalse {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.containerCardIdentity .containerIdentityMedic .identityMedic .leftIdenty .checkTrueFalse .number {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5px;
+    text-align: center;
+}
+
+
+.containerCardIdentity .containerIdentityMedic .identityMedic .rightIdenty .price .number {
+    font-size: 14px;
+}
+.containerCardIdentity .containerIdentityMedic .identityMedic h5 {
+    font-size: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+.containerCardIdentity .containerIdentityMedic .identityMedic .number {
+    font-size: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.true {
+    background-color: #2B6D20;
+    padding: 5px;
+    border-radius: 2px;
+}
+.false {
+    background-color: #9F3232;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+/**
+**Card Medic
+**/
+
+.containerCardInfoMedic .cardInfoMedic {
+    margin: 10px 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.05);
+}
+.containerCardInfoMedic .cardInfoMedic .infoMedic {
+    padding: 7px;
+}
+.containerCardInfoMedic .cardInfoMedic .infoMedic .containerTextInfoMedic {
+    height: auto;
+    background-color: #0F354D;
+    opacity: 0;
+    overflow: hidden;
+    height: 0;
+    border-radius: 7px;
+    margin: 5px;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: all 0.2s ease 0.15s;
+}
+.containerCardInfoMedic .cardInfoMedic .infoMedic .containerTextInfoMedic.active {
+    transform: scaleY(1);
+    opacity: 1;
+    height: 100%;
+    transition: all 0.35s ease 0.15s;
+}
+.containerCardInfoMedic .cardInfoMedic .infoMedic h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: 5px;
+    color: #0F354D;
+}
+.containerCardInfoMedic .cardInfoMedic .infoMedic .containerTextInfoMedic .textInfo {
+    padding: 15PX;
+    color: #FFFFFFCC;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
