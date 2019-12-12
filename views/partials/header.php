@@ -10,7 +10,7 @@
     </head>
     <body>
         <header class="header">
-            <img src="<?= URL ?>assets/images/scan_logo.svg" alt="" class="logo-scan logo-header">
+            <a href="<? URL ?>search"><img src="<?= URL ?>assets/images/scan_logo.svg" alt="" class="logo-scan logo-header"></a>
             <a href="<? URL ?>home"><img src="<?= URL ?>assets/images/logo.svg" alt="" class="logo logo-header"></a>
             <img src="<?= URL ?>assets/images/button_menu.svg" alt="" class="button-menu logo-header">
             <nav class="navigation is-appear">
