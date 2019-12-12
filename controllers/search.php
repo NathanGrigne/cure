@@ -1,4 +1,4 @@
 <?php
 $title = 'Search';
 
-include '../views/pages/search.php';
+include 'views/pages/search.php';
