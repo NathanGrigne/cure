@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: F9F9F9;
+}
+/**
+**MAIN
+**/
+
+main{
+    margin: 50px 0 0 0;
+}
+
+/**
+**Illustration Project
+**/
+.containerIllustrationSearch {
+    margin: 24px;
+}
+.containerIllustrationSearch .illustrationSearch {
+    width: 100%;
+    height: 50vh;
+    background: url('../images/pilluleSearch.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.containerIllustrationSearch .containerScrollProject h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #0F354D; 
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+}
+.containerIllustrationSearch .containerScrollProject .scrollImage {
+    width: 33.6px;
+    height: 19.2px;
+    background: url('../images/scrollSearch.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+
+
+/**
+**Project
+**/
+.containerProject {
+    margin: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+.containerProject .containerArticleProject {
+    background-color: #0F354D;
+    border-radius: 7px;
+    margin: 16px 0;
+    
+}
+.containerProject .containerArticleProject .containerTextProject {
+    padding: 30px;
+}
+.containerProject .containerArticleProject .containerTextProject h3 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+}
+.containerProject .containerArticleProject .containerTextProject .textArticle {
+    color: #FFFFFFCC;
+    font-size: 11.5px;
+}
