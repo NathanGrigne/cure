@@ -6,9 +6,13 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="icon" type="image/png" href="<?= URL ?>/assets/images/favicon.png"/>
         <title><?= !empty($title) ? $title : 'Title is empty' ?></title>
+        <? if($q != 'welcome'): ?>
         <link rel="stylesheet" href="<?= URL ?>assets/styles/style.css">
+        <? endif; ?>
+        <link rel="stylesheet" href="<?= URL ?>assets/styles/<?= $q ?>.css">
     </head>
     <body>
+        <? if($q != 'welcome'): ?>
         <header class="header">
             <a href="<? URL ?>search"><img src="<?= URL ?>assets/images/scan_logo.svg" alt="" class="logo-scan logo-header"></a>
             <a href="<? URL ?>home"><img src="<?= URL ?>assets/images/logo.svg" alt="" class="logo logo-header"></a>
@@ -25,3 +29,4 @@
                 </div>
             </nav>
         </header>
+        <? endif; ?>
