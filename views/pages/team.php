@@ -1,5 +1,4 @@
-<?php include '../views/partials/header.php' ?>
-<link rel="stylesheet" href="<? URL ?>assets/styles/team.css">
+<?php include './views/partials/header.php' ?>
 
     <main class="team">
       <h1 class="team-title">L'Équipe</h1>
@@ -55,4 +54,4 @@
       </section>
     </main>
     
-<?php include '../views/partials/footer.php' ?>
+<?php include './views/partials/footer.php' ?>
