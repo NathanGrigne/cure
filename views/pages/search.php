@@ -1,5 +1,4 @@
-<?php include '../views/partials/header.php' ?>
-<link rel="stylesheet" href="<? URL ?>assets/styles/search.css">
+<?php include './views/partials/header.php' ?>
     
     <main class="search">
       <canvas id="scan-zone"></canvas>
@@ -11,4 +10,4 @@
     </main>
 
         
-<?php include '../views/partials/footer.php' ?>
+<?php include './views/partials/footer.php' ?>
