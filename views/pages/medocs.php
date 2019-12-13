@@ -12,31 +12,32 @@
         <div class="containerCardIdentity">
             <h1>Le nom du Médicaments</h1>
             <div class="containerIdentityMedic">
+                <div class="containerDivCip">
+                    <span>Code CIP :</span>
+                    <span class="codeCip number">34009 300 76972</span>
+                </div>
                 <div class="identityMedic">
                     <div class="leftIdenty">
-                        <div class="commercialDeclaration">
-                            <h5 class="text">Déclaration de commercialisation : </h5>
-                            <span class="number">27/10/2017</span>
-                        </div>
                         <div class="prescription">
                             <div class="checkTrueFalse">
                                 <h5 class="text">Prescription :</h5>
                                 <span class="true number">Avec ou sans</span>
                             </div>
-
                         </div>
+                        <div class="enVente">
+                            <div class="checkTrueFalse">
+                                <span class="false number">Non remboursé</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="rightIdenty">
                         <div class="refund">
                             <div class="checkTrueFalse">
                                 <h5 class="text">Remboursement :</h5>
                                 <span class="false number">Non remboursé</span>
                             </div>
 
-                        </div>
-                    </div>
-                    <div class="rightIdenty">
-                        <div class="codeCIP">
-                            <h5 class="text">Code CIP :</h5>
-                            <span class="number"><?= $cip_code->code_cip13 ?></span>
                         </div>
                         <div class="price">
                             <h5 class="text">Tarif moyen :</h5>
