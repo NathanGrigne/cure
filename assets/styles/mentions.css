@@ -1,0 +1,54 @@
+/**
+**Card Medic
+**/
+main h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    color: #0F354D;
+}
+.containerCardMentions .cardMentions {
+    margin: 10px 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.05);
+}
+.containerCardMentions .cardMentions .mentions {
+    padding: 7px;
+}
+.containerCardMentions .cardMentions .mentions h2 {
+    font-size: 15px;
+}
+.containerCardMentions .cardMentions .mentions .containerTextMentions {
+    background-color: #0F354D;
+    opacity: 0;
+    overflow: hidden;
+    height: 0;
+    border-radius: 7px;
+    margin: 5px;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: all 0.2s ease 0.15s;
+}
+.containerCardMentions .cardMentions .mentions .containerTextMentions.active {
+    transform: scaleY(1);
+    opacity: 1;
+    height: 100%;
+    transition: all 0.35s ease 0.15s;
+}
+.containerCardMentions .cardMentions .mentions h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: 5px;
+    color: #0F354D;
+}
+.containerCardMentions .cardMentions .mentions .containerTextMentions .textInfo {
+    padding: 15PX;
+    color: #FFFFFFCC;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+.containerCardMentions .cardMentions .mentions .containerTextMentions .textInfo ul {
+    list-style-type: "\1F44D";
+    padding: 10px;
+}

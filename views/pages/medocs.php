@@ -36,7 +36,7 @@
                     <div class="rightIdenty">
                         <div class="codeCIP">
                             <h5 class="text">Code CIP :</h5>
-                            <span class="number">34009 300 76972 </span>
+                            <span class="number"><?= $cip_code->code_cip13 ?></span>
                         </div>
                         <div class="price">
                             <h5 class="text">Tarif moyen :</h5>

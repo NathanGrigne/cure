@@ -3,7 +3,7 @@ require './database/database.php';
 /**
  * Routing
  */
-define ('URL','http://cure.epizy.com/');
+define ('URL','http://localhost:8888/');
 
 //Get q param
 $q = !empty($_GET['q']) ? $_GET['q'] : 'welcome';
@@ -21,7 +21,9 @@ else if ($q == 'team')
 else if ($q == 'search')
 {$controller = 'search';}
 else if ($q == 'medocs')
-{$controller = 'medocs';} 
+{$controller = 'medocs';}
+else if ($q == 'mentions')
+{$controller = 'mentions';} 
 
  
 //include controller
