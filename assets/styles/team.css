@@ -9,6 +9,35 @@ body{
 
 
 /*MAIN*/
+.containerProject {
+    padding: 12px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.containerProject .containerArticleProject {
+    background-color: #0F354D;
+    border-radius: 7px;
+    margin: 16px 0;
+    
+}
+
+.containerProject .containerArticleProject .containerTextProject {
+    padding: 13px;
+}
+.containerProject .containerArticleProject .containerTextProject h3 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+}
+.containerProject .containerArticleProject .containerTextProject .textArticle {
+    color: #FFFFFFCC;
+    font-size: 15px;
+    
+}
+.containerProject .containerArticleProject .containerTextProject .bold {
+    font-weight: 900;
+}
 
 .team{
     width: 100vw;
