@@ -3,7 +3,7 @@ require './database/database.php';
 /**
  * Routing
  */
-define ('URL','http://cure.epizy.com/');
+define ('URL','http://localhost:8888/');
 
 //Get q param
 $q = !empty($_GET['q']) ? $_GET['q'] : 'welcome';

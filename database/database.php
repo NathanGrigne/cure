@@ -1,10 +1,10 @@
 <?php
 
-define('DB_HOST', 'sql201.epizy.com');
-define('DB_PORT', '3306');
-define('DB_PASS', 'carx8HAAHbON');
-define('DB_USER', 'epiz_24920363');
-define('DB_NAME', 'epiz_24920363_medocs');
+define('DB_HOST', 'localhost');
+define('DB_PORT', '	3306');
+define('DB_PASS', 'root');
+define('DB_USER', 'root');
+define('DB_NAME', 'medocs');
 
 
 try
