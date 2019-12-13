@@ -4,11 +4,13 @@ body{
 
 .main{
     width: 100vw;
+
     background: #0F354D;
 }
 
 .first-page{
-    height: 90vh;
+    height: 100vh;
+    
 }
 
 .second-page{
