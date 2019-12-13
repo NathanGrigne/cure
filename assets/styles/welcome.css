@@ -4,35 +4,15 @@ body{
 
 .main{
     width: 100vw;
+
     background: #0F354D;
 }
 
 .first-page{
-    height: 90vh;
+    height: 100vh;
+    
 }
 
-.second-page{
-    height: 520px;
-}
-
-.logo-container{
-    width: 300px;
-    height: 300px;
-    margin: 0 auto;
-}
-
-.second-page .logo-container{
-    width: 280px;
-    height: 280px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.second-page img{
-    width: 80%;
-    height: 80%;
-}
 
 .logo-welcome{
     width: 100%;
@@ -64,15 +44,6 @@ body{
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5rem;
-}
-
-.down-arrow{
-    background: url('../images/down_arrow.png');
-    background-size: cover;
-    background-position: center;
-    width: 36px;
-    height: 36px;
-    margin: 0 auto;
 }
 
 .let-go{
