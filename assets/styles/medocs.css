@@ -16,49 +16,54 @@
     margin: 20px;
     background-color: #0F354D;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8.5px;
 }
-
+.containerCardIdentity .containerIdentityMedic .containerDivCip {
+    text-align: center;
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+.containerCardIdentity .containerIdentityMedic .containerDivCip .number {
+    font-weight: 700;
+}
 .containerCardIdentity .containerIdentityMedic .identityMedic {
     display: flex;
     justify-content: space-around;
-    padding: 10px;
  
 }
 .containerCardIdentity .containerIdentityMedic .identityMedic .leftIdenty, .rightIdenty {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 8px;
+
 }
 
 .containerCardIdentity .containerIdentityMedic .identityMedic .leftIdenty .checkTrueFalse {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
 }
-.containerCardIdentity .containerIdentityMedic .identityMedic .leftIdenty .checkTrueFalse .number {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 5px;
-    text-align: center;
+.containerCardIdentity .containerIdentityMedic .identityMedic .leftIdenty .enVente .checkTrueFalse {
+    margin: 15px 0;
+
 }
-
-
 .containerCardIdentity .containerIdentityMedic .identityMedic .rightIdenty .price .number {
-    font-size: 14px;
+    font-size: 20px;
 }
 .containerCardIdentity .containerIdentityMedic .identityMedic h5 {
-    font-size: 8px;
+    font-size: 11px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #ffffff;
 }
 .containerCardIdentity .containerIdentityMedic .identityMedic .number {
-    font-size: 8px;
+    font-size: 11px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
     color: #ffffff;
+    text-align: center;
 }
 
 .true {
