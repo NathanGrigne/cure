@@ -1,60 +1,46 @@
 <?php include './views/partials/header.php' ?>
 
-    <main>
-        <div class="containerIllustrationSearch">
+<main>
+
+    <div class="containerProject">
+        <article class="containerArticleProject">
+            <div class="containerTextProject">
+                <p class="textArticle">
+                    Aujourd’hui, <span class="bold">80 % </span>des Français ont déjà eu recours à
+                    <span class="bold">l’automédication</span>
+                    et le plus souvent pour des pathologies classiques (rhume, maux de tête et de
+                    gorge).
+                </p>
+            </div>
+        </article>
+        <div class="containerIllustrationSearch">    
             <div class="illustrationSearch">
             </div>
             <div class="containerScrollProject">
-                <h1>Notre Projet</h1>
-                <div class="scrollImage">
-                </div>
             </div>
         </div>
-        <div class="containerProject">
-            <article class="containerArticleProject">
-                <div class="containerTextProject">
-                    <h3 class="titleArticleProject">Qui somme nous ?</h3>
-                    <p class="textArticle">
-                        Cure est une application web 100% indépendante et gratuite.
-                    </p>
-                    <p class="textArticle">
-                        Elle n’est par conséquent pas influencé et influençable ni par les laboratoires pharmaceutiques,
-                        ni par les médecins.
-                    </p>
-                    <p class="textArticle">
-                        Elle a pour but de renseigner la population sur les médicaments qu'elle utilise.
-                        Soyons acteur de nos soins.
-                    </p>
-                </div>
-            </article>
-            <article class="containerArticleProject">
-                <div class="containerTextProject">
-                    <h3 class="titleArticleProject">Pourquoi ?</h3>
-                    <p class="textArticle">
-                        80% de la population française a recours à l’automédication, mais sans
-                        forcément connaitre les réels risques de certains médicaments.
-                    </p>
-                    <p class="textArticle">
-                        Les notices d’utilisation utilisent un vocabulaire complexe et non adapté au consommateur moyen.
-                    </p>
-                    <p class="textArticle">
-                        Cure veut donc permettre à chacun de comprendre facilement les notices d’utilisation et avoir
-                        accès aux informations primordiales au soin facilement.
-                    </p>
-                </div>
-            </article>
-            <article class="containerArticleProject">
-                <div class="containerTextProject">
-                    <h3 class="titleArticleProject">Comment ?</h3>
-                    <p class="textArticle">
-                            Notre équipe lit des notices et se renseigne chaque jour sur plusieurs médicaments afin de vous fournir les meilleures et les plus récentes informations sur chaque fiche.
-                    </p>
-                    <p class="textArticle">
-                        Chaque fiche est composée de plusieurs informations comme le taux de remboursement, le besoin ou non d’ordonnance, les symptômes, le mode d'emploi, la composition ou encore les effets secondaires.             
-                    </p>
-                </div>
-            </article>
-        </div>
-    </main>
+        <article class="containerArticleProject white">
+            <div class="containerTextProject">
+                <p class="textArticle">
+                    Pour vous <span class="bold">aider, guider, renseigner</span> nous avons créé <span class="bold">Cure !</span>
+                </p>
+                <p class="textArticle">
+                    Notre but, rendre <span class="bold">l’automédication</span> plus
+                    <span class="bold">accessible</span>  afin que vous preniez <span class="bold">moins de risque.</span>
+                </p>
+            </div>
+        </article>
+        <article class="containerArticleProject">
+            <div class="containerTextProject">
+                <p class="textArticle">
+                En France <span class="bold">l’automédication</span>
+                </p> 
+                <p class="textArticle">est <span class="bold">déconseillée</span>.
+
+                </p>
+            </div>
+        </article>
+    </div>
+</main>
 
 <?php include './views/partials/footer.php' ?>
