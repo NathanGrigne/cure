@@ -11,19 +11,61 @@ main{
     margin: 50px 0 0 0;
 }
 
+
 /**
+**Project
+**/
+.containerProject {
+    padding: 12px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.containerProject .containerArticleProject {
+    background-color: #0F354D;
+    border-radius: 7px;
+    margin: 16px 0;
+    
+}
+.containerProject .containerArticleProject.white {
+    background: #FFFFFFCC;
+
+}
+.containerProject .containerArticleProject .containerTextProject {
+    padding: 13px;
+}
+.containerProject .containerArticleProject .containerTextProject h3 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+}
+.containerProject .containerArticleProject.white .containerTextProject p {
+    color: #0F354D;
+}
+.containerProject .containerArticleProject .containerTextProject .textArticle {
+    color: #FFFFFFCC;
+    font-size: 15px;
+    margin: 0;
+}
+.containerProject .containerArticleProject .containerTextProject .bold {
+    font-weight: 900;
+}
+
+
+/** 
 **Illustration Project
 **/
+
 .containerIllustrationSearch {
     margin: 24px;
 }
 .containerIllustrationSearch .illustrationSearch {
     width: 100%;
     height: 50vh;
-    background: url('../images/pilluleSearch.svg');
+    background: url('../images/illustrationProjectPage.svg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .containerIllustrationSearch .containerScrollProject h1 {
@@ -43,31 +85,3 @@ main{
     margin: 0 auto;
 }
 
-
-
-/**
-**Project
-**/
-.containerProject {
-    margin: 24px;
-    font-family: 'Montserrat', sans-serif;
-}
-.containerProject .containerArticleProject {
-    background-color: #0F354D;
-    border-radius: 7px;
-    margin: 16px 0;
-    
-}
-.containerProject .containerArticleProject .containerTextProject {
-    padding: 30px;
-}
-.containerProject .containerArticleProject .containerTextProject h3 {
-    margin: 0;
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: 700;
-}
-.containerProject .containerArticleProject .containerTextProject .textArticle {
-    color: #FFFFFFCC;
-    font-size: 11.5px;
-}
