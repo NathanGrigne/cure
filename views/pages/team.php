@@ -6,17 +6,17 @@
       <div class="containerTextProject">
         <h3>Qui somme nous ?</h3>
         <p class="textArticle">
-          Cure est une application web 100% indépendante et gratuite.
+          Cure est une application web 100% <span class="bold">indépendante</span> et <span class="bold">gratuite</span>.
         </p>
         <p class="textArticle">
-          Elle n’est par conséquent pas influencé et influençable ni par les laboratoires pharmaceutiques, ni
-          par les médecins.
+          Elle n’est par conséquent <span class="bold">pas influencé</span> et <span class="bo">influençable</span>  ni par les <span class="bold">laboratoires</span> pharmaceutiques, ni
+          par les <span class="bold">médecins</span>.
         </p>
         <p class="textArticle">
-          Elle a pour but de renseigner la population sur les médicaments qu'elle utilise.
+          Elle a pour but de <span class="bold">renseigner</span> la population sur les <span class="bold">médicaments</span> qu'elle utilise.
         </p>
         <p class="textArticle">
-          Soyons acteur de nos soins.
+          Soyons <span class="bold">acteur</span> de <span class="bol"></span>nossoins!
         </p>
       </div>
     </article>
