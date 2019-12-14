@@ -9,7 +9,7 @@
                     </h2>
                     <div class="containerTextMentions active">
                         <div class="textInfo">
-                            <span>On designera par la suite :</span>
+                            <p>On designera par la suite :</p>
                             <ul>
                                 <li>« Donnée personnelle » :</li>
                                 <p>se définit comme « toute information relative à une personne physique identifiée ou
