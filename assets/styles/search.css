@@ -1,28 +1,43 @@
-body{
-    margin: 0;
-    background: #F9F9F9;
+body {
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
 }
 
 /*MAIN SEARCH*/
 
-.search{
+.search {
   width: 100vw;
   height: 100%;
-  margin: 70px 0 0 0;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
-#scan-zone{
-  height: 370px;
+.search .containerInfoScan {
+  width: 280px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search .containerInfoScan .infoScan {
+  width: 23px;
+  height: 23px;
+  background-image: url('../images/infoScan.svg');
+
+}
+
+#scan-zone {
+  height: 300px;
   width: 280px;
   background: red;
   margin: 5px 0;
 }
 
-.search form{
+.search form {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -30,7 +45,7 @@ body{
   align-items: center;
 }
 
-.search p{
+.search form p {
   margin: 0;
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
@@ -38,7 +53,7 @@ body{
   color: #0F354D;
 }
 
-.search input{
+.search input {
   margin: 10px;
   padding: 5px;
   width: 80%;
@@ -49,4 +64,146 @@ body{
   border-radius: 5px;
   text-align: center;
   box-shadow: 2px 2px 5px #E6E6E6, 0px 0px 0px #E6E6E6, 0px 0px 0px #E6E6E6;
+}
+
+.search form .inputCip {
+  width: 80%;
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.search form .inputCip .infoScan {
+  width: 23px;
+  height: 23px;
+  background-image: url('../images/infoScan.svg');
+  background-size: contain;
+  background-position: center;
+}
+
+/**
+**PopUp info
+**/
+
+.containerProject {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.containerProject .containerArticleProject {
+  width: 100%;
+  background-color: #0F354D;
+
+  margin: 16px 0;
+
+}
+
+.containerProject .containerArticleProject .containerTextProject {
+  padding: 13px;
+}
+
+.containerProject .containerArticleProject .containerTextProject h3 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.containerProject .containerArticleProject .containerTextProject .textArticle {
+  color: #FFFFFFCC;
+  font-size: 15px;
+
+}
+
+.containerProject .containerArticleProject .containerTextProject .bold {
+  font-weight: 900;
+}
+
+
+.containerOverInfoScan {
+  position: absolute;
+
+  bottom: 0;
+
+  background-color: #0F354D;
+  color: #E6E6E6;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  padding: 30px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  transform: translateY(100vh);
+  transition: transform 0.3s ease-in-out;
+}
+
+.containerOverInfoScan p {
+  margin: 0;
+}
+
+.containerOverInfoScan .infoScan {
+  margin: 8px 0;
+}
+
+.containerOverInfoScan .overinfoScan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.containerOverInfoScan .overinfoScan .imageOverInfoScan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerOverInfoScan .overinfoScan .imageOverInfoScan .leftImage {
+  width: 100px;
+  height: 143px;
+  background-image: url('../images/pilluleScan.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.containerOverInfoScan .overinfoScan .imageOverInfoScan .rightImage {
+  width: 157px;
+  height: 50px;
+  background-image: url('../images/cipCode.svg');
+  background-size: cover;
+  background-position: center;
+}
+.containerOverInfoScan .overinfoScan .imageOverInfoScan .rightImage.cip {
+  background-image: url('../images/infoCip.svg');
+
+}
+.bold {
+  font-weight: 900;
+}
+
+main .is-appear {
+
+  transform: translateY(0);
+}
+
+.overflow {
+  overflow-y: hidden
+}
+
+.containerOverInfoScan .containerInfoScan {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.containerOverInfoScan .containerInfoScan .infoScan {
+  width: 18px;
+  height: 18px;
+  
+  background-image: url('../images/close.svg');
+  background-size: contain;
+  background-position: center;
 }
