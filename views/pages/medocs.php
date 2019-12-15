@@ -26,7 +26,7 @@
                         </div>
                         <div class="enVente">
                             <div class="checkTrueFalse">
-                                <span class="false number">Non remboursé</span>
+                                <span class="false number">En vente</span>
                             </div>
                         </div>
 
@@ -50,7 +50,7 @@
         <div class="containerCardInfoMedic">
             <div class="cardInfoMedic">
                 <div class="infoMedic">
-                    <h2>Notice</h2>
+                    <h2>Symptômes</h2>
                     <div class="containerTextInfoMedic active">
                         <div class="textInfo">
                             ABACAVIR/LAMIVUDINE BIOGARAN contient deux substances actives qui sont utilisées pour
@@ -74,7 +74,7 @@
             </div>
             <div class="cardInfoMedic">
                 <div class="infoMedic">
-                    <h2>Effets Secondaires</h2>
+                    <h2>Conseil d’utilisation</h2>
                     <div class="containerTextInfoMedic">
                         <div class="textInfo">
                             ABACAVIR/LAMIVUDINE BIOGARAN contient deux substances actives qui sont utilisées pour
@@ -98,7 +98,7 @@
             </div>
             <div class="cardInfoMedic">
                 <div class="infoMedic">
-                    <h2>Conseil d’utilisation</h2>
+                    <h2>Effets indésirables éventuels</h2>
                     <div class="containerTextInfoMedic">
                         <div class="textInfo">
                             ABACAVIR/LAMIVUDINE BIOGARAN contient deux substances actives qui sont utilisées pour
