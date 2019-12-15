@@ -9,7 +9,7 @@
         <? if($q != 'welcome'): ?>
         <link rel="stylesheet" href="<?= URL ?>assets/styles/style.css">
         <? endif; ?>
-        <link rel="stylesheet" href="<?= URL ?>assets/styles/<?= $q ?>.css">
+        <link rel="stylesheet" href="<?= URL ?>assets/styles/<?= $controller ?>.css">
     </head>
     <body>
         <? if($q != 'welcome'): ?>
@@ -17,7 +17,7 @@
             <a href="<?= URL ?>search"><img src="<?= URL ?>assets/images/scan_logo.svg" alt="" class="logo-scan logo-header"></a>
             <a href="<?= URL ?>home"><img src="<?= URL ?>assets/images/logo.svg" alt="" class="logo logo-header"></a>
             <img src="<?= URL ?>assets/images/button_menu.svg" alt="" class="button-menu logo-header">
-            <nav class="navigation is-appear">
+            <nav class="navigation disappear">
                 <ul class="navigation-list">
                     <li class="navigation-content"><a href="<?= URL ?>home">home</a></li>
                     <li class="navigation-content"><a href="<?= URL ?>team">équipe</a></li>
