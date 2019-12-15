@@ -20,10 +20,12 @@ else if ($q == 'team')
 {$controller = 'team';}
 else if ($q == 'search')
 {$controller = 'search';}
-else if ($q == 'medocs')
-{$controller = 'medocs';}
 else if ($q == 'mentions')
 {$controller = 'mentions';} 
+else if (preg_match('/^medicament\/[0-9]*$/', $q))
+{$controller = 'medocs';}
+else if (preg_match('/^medicament\/.*((\d)(?:.))?/', $q))
+{$controller = 'medocsList';}
 
  
 //include controller

@@ -27,7 +27,8 @@ body{
     position: absolute;
     top: 100%;
     left: 0%;
-    transform: translateX(0);
+    transform: scaleY(1);
+    transform-origin: top;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -61,8 +62,8 @@ body{
     opacity: 0.4;
 }
 
-.is-appear{
-    transform: translateX(100vw);
+.disappear{
+    transform: ScaleY(0);
 }
 
 .overflow{

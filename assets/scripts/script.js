@@ -1,16 +1,23 @@
 const buttonMenu = document.querySelector('.button-menu')
 const menuMobile = document.querySelector('.navigation')
+const main = document.querySelector('main')
+
 let menuStatus = true
 
 buttonMenu.addEventListener('click', () =>{
     if(menuStatus === false){
-        menuMobile.classList.add('is-appear')
-        document.body.classList.remove('overflow')
+        menuMobile.classList.add('disappear')
         menuStatus = true
     }
     else if(menuStatus === true){
-        menuMobile.classList.remove('is-appear')
+        menuMobile.classList.remove('disappear')
         menuStatus = false
-        document.body.classList.add('overflow')
+    }
+})
+
+window.addEventListener('scroll', () =>{
+    if(menuStatus === false){
+        menuMobile.classList.add('disappear')
+        menuStatus = true
     }
 })
