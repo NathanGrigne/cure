@@ -167,7 +167,8 @@
 
 <? else: ?>
     <main>
-        <h1>SORRY RIEN TROUVER GROS</h1>
+        <div class="image-not-found"></div>
+        <h1 class="not-found">Désolé ce médicament n'est pas connu par nos services.</h1>
     </main>
 <? endif; ?>
 
