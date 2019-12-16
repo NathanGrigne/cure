@@ -16,54 +16,49 @@
     margin: 20px;
     background-color: #0F354D;
     border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 8.5px;
 }
-.containerCardIdentity .containerIdentityMedic .containerDivCip {
-    text-align: center;
-    font-size: 11px;
-    font-family: 'Montserrat', sans-serif;
-    color: #ffffff;
-}
-.containerCardIdentity .containerIdentityMedic .containerDivCip .number {
-    font-weight: 700;
-}
+
 .containerCardIdentity .containerIdentityMedic .identityMedic {
     display: flex;
     justify-content: space-around;
+    padding: 10px;
  
 }
 .containerCardIdentity .containerIdentityMedic .identityMedic .leftIdenty, .rightIdenty {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
+    padding: 8px;
 }
 
 .containerCardIdentity .containerIdentityMedic .identityMedic .leftIdenty .checkTrueFalse {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
-.containerCardIdentity .containerIdentityMedic .identityMedic .leftIdenty .enVente .checkTrueFalse {
-    margin: 15px 0;
+.containerCardIdentity .containerIdentityMedic .identityMedic .leftIdenty .checkTrueFalse .number {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5px;
+    text-align: center;
+}
 
-}
+
 .containerCardIdentity .containerIdentityMedic .identityMedic .rightIdenty .price .number {
-    font-size: 20px;
+    font-size: 14px;
 }
 .containerCardIdentity .containerIdentityMedic .identityMedic h5 {
-    font-size: 11px;
+    font-size: 8px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #ffffff;
 }
 .containerCardIdentity .containerIdentityMedic .identityMedic .number {
-    font-size: 11px;
+    font-size: 8px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     color: #ffffff;
-    text-align: center;
 }
 
 .true {
@@ -121,3 +116,21 @@
     font-size: 13px;
 }
 
+.not-found{
+    padding: 30px;
+    background: #0F354D;
+    color: #fff;
+    border-radius: 7px;
+    margin: 0 5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.image-not-found{
+    background: url('../images/picture.svg');
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
