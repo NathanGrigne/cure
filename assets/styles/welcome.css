@@ -4,7 +4,8 @@ body{
 
 .main{
     width: 100vw;
-
+    display: flex;
+    justify-content: center;
     background: #0F354D;
 }
 
@@ -62,8 +63,6 @@ body{
     background: #fff;
     border: none;
     border-radius: 5px;
-    position: absolute;
-    left: calc(50% - 70px);
 }
 
 .link-let-go{
