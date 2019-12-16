@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="icon" type="image/png" href="<?= URL ?>/assets/images/favicon.png"/>
+        <link rel="icon" type="image/png" href="<?= URL ?>/assets/images/logo.ico"/>
         <title><?= !empty($title) ? $title : 'Title is empty' ?></title>
         <? if($q != 'welcome'): ?>
         <link rel="stylesheet" href="<?= URL ?>assets/styles/style.css">
