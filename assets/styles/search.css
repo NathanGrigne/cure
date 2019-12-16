@@ -1,230 +1,206 @@
 body{
-  margin: 0;
-  background: #F9F9F9;
-  overflow-y: hidden;
+    margin: 0;
+    background: #F9F9F9;
+    overflow-y: hidden;
 }
 
 /*MAIN SEARCH*/
 
+#scandit-barcode-picker{
+  width: 300px;
+  height: 400px;
+}
+
 .search{
-width: 100vw;
-height: 100%;
-margin: 70px 0 0 0;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-position: relative;
+  width: 100vw;
+  height: 100%;
+  margin: 70px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 #scan-zone{
-height: 370px;
-width: 280px;
-margin: 5px 0;
+  height: 370px;
+  width: 280px;
+  margin: 5px 0;
 }
 
 .search form{
-width: 100%;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .search p{
-margin: 0;
-font-weight: 700;
-font-family: 'Montserrat', sans-serif;
-font-size: 15px;
-color: #0F354D;
+  margin: 0;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: #0F354D;
 }
 
 .input-classic{
-margin: 10px;
-padding: 5px;
-width: 50%;
-font-family: 'Montserrat', sans-serif;
-font-size: 10px;
-font-weight: 700;
-border: 0;
-border-radius: 5px;
-text-align: center;
-box-shadow: 2px 2px 5px #E6E6E6, 0px 0px 0px #E6E6E6, 0px 0px 0px #E6E6E6;
+  margin: 10px;
+  padding: 5px;
+  width: 50%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  border: 0;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 2px 2px 5px #E6E6E6, 0px 0px 0px #E6E6E6, 0px 0px 0px #E6E6E6;
 }
 
 .button{
-opacity: 0;
+  opacity: 0;
 }
 
 .infos-scan{
-width: 20px;
-height: 20px;
-background: url('../images/questionMark.svg');
-background-size: cover;
-position: absolute;
-bottom: 6.5%;
-right: 15%;
+  width: 20px;
+  height: 20px;
+  background: url('../images/questionMark.svg');
+  background-size: cover;
+  position: absolute;
+  bottom: 6.5%;
+  right: 15%;
 }
 
 .infos-scan-top{
-width: 20px;
-height: 20px;
-background: url('../images/questionMark.svg');
-background-size: cover;
-position: absolute;
-top: 0;
-right: 12%;
+  width: 20px;
+  height: 20px;
+  background: url('../images/questionMark.svg');
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 12%;
 }
 
 .infos-cip{
-background: #0F354D;
-border-radius: 12px;
-padding: 30px 0;
-position: absolute;
-bottom: -12px;
+  background: #0F354D;
+  border-radius: 12px;
+  padding: 30px 0;
+  position: absolute;
+  bottom: -12px;
 }
 
 .infos-matrix{
-background: #0F354D;
-border-radius: 12px;
-padding: 30px 0;
-position: absolute;
-bottom: -12px;
+  background: #0F354D;
+  border-radius: 12px;
+  padding: 30px 0;
+  position: absolute;
+  bottom: -12px;
 }
 
 .close{
-width: 16px;
-height: 16px;
-background: url('../images/close.png');
-background-size: cover;
-position: absolute;
-right: 10px;
-top: 10px;
+  width: 16px;
+  height: 16px;
+  background: url('../images/close.png');
+  background-size: cover;
+  position: absolute;
+  right: 10px;
+  top: 10px;
 }
 
 .close2{
-width: 16px;
-height: 16px;
-background: url('../images/close.png');
-background-size: cover;
-position: absolute;
-right: 10px;
-top: 10px;
+  width: 16px;
+  height: 16px;
+  background: url('../images/close.png');
+  background-size: cover;
+  position: absolute;
+  right: 10px;
+  top: 10px;
 }
 
 .infos-cip p{
-color: #f9f9f9;
-font-size: 12px;
-font-weight: 400;
-margin: 10px;
+  color: #f9f9f9;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 10px;
 }
 
 .infos-matrix p{
-color: #f9f9f9;
-font-size: 12px;
-font-weight: 400;
-margin: 10px;
+  color: #f9f9f9;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 10px;
 }
 
 .text-bold{
-font-weight: 700;
+  font-weight: 700;
 }
 
-
-.containerOverInfoScan {
-  position: absolute;
-
-  bottom: 0;
-
-  background-color: #0F354D;
-  color: #E6E6E6;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
-  padding: 30px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  transform: translateY(100vh);
-  transition: transform 0.5s ease-in-out;
-}
 .no-margin{
-margin: 0;
+  margin: 0;
 }
 
 .container-image{
-display: flex;
-justify-content: space-around;
-align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .picture{
-width: 100px;
-height: 100px;
-background: url('../images/picture.svg');
-background-size: cover;
+  width: 100px;
+  height: 100px;
+  background: url('../images/picture.svg');
+  background-size: cover;
 }
 
 .help{
-width: 160px;
-height: 50px;
-background: url('../images/helpDataMatrix.png');
-background-size: cover;
+  width: 160px;
+  height: 50px;
+  background: url('../images/helpDataMatrix.png');
+  background-size: cover;
 }
 
 .hide{
-display: none;
+  display: none;
 }
 
 
 #scandit-barcode-picker {
-width: 100%;
-height: 60%;
-max-height: 70vh;
+  width: 100%;
+  height: 60%;
+  max-height: 70vh;
 }
 
 #scandit-barcode-result {
-display: flex;
-justify-content: center;
-align-items: center;
-flex: 1;
-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  width: 100%;
 }
 
 button,
 button:active,
 button[disabled]:hover {
-border: none;
-border-radius: none;
-outline: none;
-font-size: 0.7em;
-padding: 0.4em 0.6em;
-margin: 20px;
-text-transform: uppercase;
-font-family: 'Open Sans', sans-serif;
-background: #2ec0cc;
-color: white;
+  border: none;
+  border-radius: none;
+  outline: none;
+  font-size: 0.7em;
+  padding: 0.4em 0.6em;
+  margin: 20px;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  background: #2ec0cc;
+  color: white;
 }
 
 button:hover {
-background: #30d0d8;
+  background: #30d0d8;
 }
 
 button[disabled] {
-opacity: 0.4;
+  opacity: 0.4;
 }
 
-.containerOverInfoScan .containerInfoScan {
-  position: absolute;
-  top: 5px;
-  right: 15px;
-}
-.containerOverInfoScan .containerInfoScan .infoScan {
-  width: 18px;
-  height: 18px;
-  
-  background-image: url('../images/close.svg');
-  background-size: contain;
-  background-position: center;
-}
 #continue-scanning-button {
-margin-bottom: 10vh;
+  margin-bottom: 10vh;
 }
