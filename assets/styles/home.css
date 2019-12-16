@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: F9F9F9;
+    background-color: #F9F9F9;
 }
 /**
 **MAIN
@@ -33,24 +33,85 @@ main{
 .containerProject .containerArticleProject .containerTextProject {
     padding: 13px;
 }
-.containerProject .containerArticleProject .containerTextProject h3 {
-    margin: 0;
+.containerProject .containerArticleProject .containerTextProject ul {
+    margin: 0px;
+    list-style-type: "\1F44D";
+    padding: 10px;
     color: #ffffff;
+    margin: 0;
+}
+.containerProject h1 {
+    margin: 0;
+    color: #0F354D;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+}
+.containerProject .containerArticleProject .containerTextProject h2 {
+    margin: 0;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 800;
+    color: #ffffff;
+    text-align: center;
 }
 .containerProject .containerArticleProject.white .containerTextProject p {
     color: #0F354D;
 }
+
 .containerProject .containerArticleProject .containerTextProject .textArticle {
     color: #FFFFFFCC;
     font-size: 15px;
-    margin: 0;
+    margin: 10px 0;
 }
+
 .containerProject .containerArticleProject .containerTextProject .bold {
     font-weight: 900;
 }
+.containerProject .containerTitleProject .scrollDown {
+    background-image: url('../images/scrollSearch.svg');
+    width: 34px;
+    height: 34px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.containerProject .containerTitleProject {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.containerProject .callToActionScan h3 {
+    margin: 0;
+    color: #0F354D;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
 
+    text-align: center;
+    line-height: 30px;
+}
+.containerProject .callToActionScan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerProject .callToActionScan .imgScan {
+    background-image: url('../images/scan_logo_blue.svg');
+    width: 126px;
+    height: 126px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.containerProject .containerArticleProject .containerTextProject ul {
+    margin: 0 10px ;
+    list-style-type: "\1F44D";
+    padding: 10px;
+    color: #ffffff;
+    
+}
 
 /** 
 **Illustration Project
