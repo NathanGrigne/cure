@@ -6,7 +6,7 @@
       <form method="post">
         <input class="input-classic" type="text" name="research-name" placeholder="Entrez le nom du médicaments">
         <p>ou</p>
-        <input class="input-classic" type="text" name="research-code" placeholder="Entrez le code CIP">
+        <input class="input-classic input-cip" type="text" name="research-code" placeholder="Entrez le code CIP">
         <div class="infos-scan"></div>
         <input type="submit" class="button">
       </form>
