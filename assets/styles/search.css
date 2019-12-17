@@ -200,7 +200,3 @@ button:hover {
 button[disabled] {
   opacity: 0.4;
 }
-
-#continue-scanning-button {
-  margin-bottom: 10vh;
-}
