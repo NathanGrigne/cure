@@ -2,3 +2,8 @@ RewriteEngine On
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-f
 RewriteRule ^(.*)$ ./index.php?q=$1 [QSA]
+
+<IfModule mod_headers.c>
+ Header set Cache-Control "no-cache, no-store, must-revalidate"
+ Header set Expires 0
+</IfModule>
