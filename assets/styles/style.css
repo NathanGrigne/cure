@@ -16,6 +16,11 @@ body{
     z-index: 1000;
 }
 
+.logo-scan{
+    height: 24px;
+    width: auto;
+}
+
 .logo-header{
     margin: 0 12vw 0 12vw;
 }
