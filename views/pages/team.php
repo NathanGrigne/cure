@@ -16,7 +16,7 @@
           Elle a pour but de <span class="bold">renseigner</span> la population sur les <span class="bold">médicaments</span> qu'elle utilise.
         </p>
         <p class="textArticle">
-          Soyons <span class="bold">acteur</span> de <span class="bol"></span>nossoins!
+          Soyons <span class="bold">acteur</span> de <span class="bol"></span>nos soins!
         </p>
       </div>
     </article>
@@ -29,7 +29,8 @@
     <div class="identity">
       <h2>Antoine</h2>
       <h2>Baudot</h2>
-      <h4>Designer</h4>
+      <h4>Front-End Developper</h4>
+      <h4>Designer<h4>
     </div>
   </section>
   <section class="identity-container">
@@ -40,6 +41,7 @@
       <h2>louis</h2>
       <h2>gazel</h2>
       <h4>Designer</h4>
+      <h4>Marketing</h4>
     </div>
   </section>
   <section class="identity-container">
@@ -49,7 +51,7 @@
     <div class="identity">
       <h2>nathan</h2>
       <h2>grigné</h2>
-      <h4>Designer</h4>
+      <h4>Full-Stack Developper</h4>
     </div>
   </section>
   <section class="identity-container">
@@ -69,6 +71,7 @@
     <div class="identity">
       <h2>aurelien</h2>
       <h2>sarrat</h2>
+      <h4>Front-End Developper</h4>
       <h4>Designer</h4>
     </div>
   </section>
