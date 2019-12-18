@@ -42,3 +42,22 @@ main{
     color: #0F354D;
     text-decoration: none;
 }
+
+.not-found{
+    padding: 30px;
+    background: #0F354D;
+    color: #fff;
+    border-radius: 7px;
+    margin: 0 5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.image-not-found{
+    background: url('../images/picture.svg');
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
