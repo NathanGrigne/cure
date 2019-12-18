@@ -21,7 +21,7 @@
             <nav class="navigation disappear">
                 <ul class="navigation-list">
                     <li class="navigation-content"><a href="<?= URL ?>home">home</a></li>
-                    <li class="navigation-content"><a href="<?= URL ?>search">search</a></li>
+                    <li class="navigation-content"><a href="<?= URL ?>search">rechercher</a></li>
                     <li class="navigation-content"><a href="<?= URL ?>team">équipe</a></li>
                     <li class="navigation-content"><a href="<?= URL ?>contact">contact</a></li>
                     <li class="navigation-content"><a href="<?= URL ?>mentions">mentions</a></li>
