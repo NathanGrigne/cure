@@ -14,6 +14,9 @@ if(!empty($info_cip_bdpm)){
 
     $name_medoc = explode(',', $info_cis_bdpm->denomination_medicament);
     $info_cis_bdpm->denomination_medicament = $name_medoc[0];
+
+    $utilisations = $pdo->query('SELECT * FROM utilisations WHERE code_cis = '.$cis_code.' LIMIT 1');
+    $utilisations = $utilisations->fetch();
 }
 
 include 'views/pages/medocs.php';
