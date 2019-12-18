@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="<?= URL ?>assets/styles/style.css">
         <? endif; ?>
         <link rel="stylesheet" href="<?= URL ?>assets/styles/<?= $controller ?>.css">
+        <link rel="stylesheet" herf="<?= URL ?>assets/styles/setup.css">
     </head>
     <body>
         <? if($q != 'welcome'): ?>
