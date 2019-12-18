@@ -16,65 +16,32 @@ main{
 **Project
 **/
 .containerProject {
-    padding: 12px;
+    padding: 16px;
     font-family: 'Montserrat', sans-serif;
     
 }
 .containerProject .containerArticleProject {
-    background-color: #0F354D;
     border-radius: 7px;
     margin: 16px 0;
     
 }
-.containerProject .containerArticleProject.white {
-    background: #FFFFFFCC;
-
-}
 .containerProject .containerArticleProject .containerTextProject {
     padding: 13px;
 }
-.containerProject .containerArticleProject .containerTextProject ul {
-    margin: 0px;
-    list-style-type: "\1F44D";
-    padding: 10px;
-    color: #ffffff;
-    margin: 0;
-}
-.containerProject h1 {
-    margin: 0;
-    color: #0F354D;
-    font-size: 25px;
-    font-weight: 900;
-    text-align: center;
-}
-.containerProject .containerArticleProject .containerTextProject h2 {
-    margin: 0;
-    font-size: 20px;
-    font-weight: 800;
-    color: #ffffff;
-    text-align: center;
-}
-.containerProject .containerArticleProject.white .containerTextProject p {
-    color: #0F354D;
+
+.containerProject .containerArticleProject .containerTextProject p {
+    color: #0F354DCC;
 }
 
-.containerProject .containerArticleProject .containerTextProject .textArticle {
-    color: #FFFFFFCC;
-    font-size: 15px;
-    margin: 10px 0;
-}
+
 
 .containerProject .containerArticleProject .containerTextProject .bold {
     font-weight: 900;
 }
-.containerProject .containerTitleProject .scrollDown {
-    background-image: url('../images/scrollSearch.svg');
-    width: 34px;
-    height: 34px;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    text-align: center;
+.containerProject .containerArticleProject .containerTextProject .boldTextArticle {
+    font-weight: 900;
+    font-size: 22px;
+    color: #0F354D;
 }
 .containerProject .containerTitleProject {
     display: flex;
@@ -86,7 +53,6 @@ main{
     color: #0F354D;
     font-size: 25px;
     font-family: 'Montserrat', sans-serif;
-
     text-align: center;
     line-height: 30px;
 }
@@ -109,7 +75,7 @@ main{
     margin: 0 10px ;
     list-style-type: "\1F44D";
     padding: 10px;
-    color: #ffffff;
+    color: #0F354DCC;
     
 }
 
@@ -129,20 +95,5 @@ main{
     background-size: contain;
 }
 
-.containerIllustrationSearch .containerScrollProject h1 {
-    font-family: 'Montserrat', sans-serif;
-    color: #0F354D; 
-    text-align: center;
-    font-size: 25px;
-    font-weight: 900;
-}
-.containerIllustrationSearch .containerScrollProject .scrollImage {
-    width: 33.6px;
-    height: 19.2px;
-    background: url('../images/scrollSearch.svg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0 auto;
-}
+
 
