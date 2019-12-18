@@ -1,6 +1,19 @@
 body{
-    overflow: hidden;
-    background: #F9F9F9;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*HEADER*/
+
+.header{
+    width: 100vw;
+    height: 53px;
+    background: #0F354D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 .logo-header{
@@ -13,69 +26,100 @@ body{
     left: 0%;
 }
 
-.overflow{
-    overflow-y: hidden
-}
-
-
 /*MAIN*/
 
 .contact{
-    width: 100vw;
-    height: 100vh;
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 100vw;
+  height: auto;
+  background: #F9F9F9;
+  margin: 0;
+}
+
+.contact-form-js{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact h1{
-    color: #0F354D;
-    margin : 0;
-    font-family: 'Montserrrat', sans-serif;
-    font-size: 25px;
-    font-weight: 900;
+  font-size: 25px;
+  color: #0F354D;
+  margin : 0;
+  font-weight: 900;
 }
 
 h1.contact-title-top{
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 h1.contact-title-bottom{
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .contact form{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact input{
-    margin: 15px;
-    width: 80%;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    border: 0;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px #E6E6E6, 0px 0px 0px #E6E6E6, 0px 0px 0px #E6E6E6;
+  margin: 15px;
+  width: 80%;
+  font-weight: 700;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #E6E6E6, 0px 0px 0px #E6E6E6, 0px 0px 0px #E6E6E6;
 }
 
 .contact .input-classic{
-    padding: 8px;
+  padding: 8px;
 }
 
 .contact .input-message{
-    padding: 8px;
-    padding-bottom: 100px;
+  padding: 8px;
+  padding-bottom: 125px;
 }
 
-.contact .send{
-    width: 40%;
-    font-weight: 900;
-    padding: 5px;
-    background: #0F354D;
-    color: white;
+.contact .send-form{
+  border-radius: 20px;
+  border: 0;
+  width: 40%;
+  font-weight: 900;
+  padding: 5px;
+  background: #0F354D;
+  color: white;
+}
+
+/*CSS for JS*/
+
+.contact-check-js{
+  background: #F9F9F9;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-check-js img{
+    margin: 8em;
+}
+
+.contact-thanksmessage-js{
+  background: #F9F9F9;
+  font-weight: 900;
+  text-align: center;
+  color: #0F354D;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-thanksmessage-js h1{
+  margin: 1.3em;
+}
+
+.contact-thanksmessage-js img{
+  margin: 2em;
 }
