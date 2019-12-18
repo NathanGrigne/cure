@@ -7,43 +7,48 @@
         <h1><?= $name_medoc[0] ?></h1>
         <div class="containerIdentityMedic">
             <div class="identityMedic">
-                <div class="leftIdenty">
-                    <div class="commercialDeclaration">
-                        <h5 class="text">Déclaration de commercialisation : </h5>
-                        <span class="number"><?= $info_cip_bdpm->date_commercialisation ?></span>
-                    </div>
-                    <div class="prescription">
-                        <div class="checkTrueFalse">
-                            <h5 class="text">Prescription :</h5>
-                            <span class="true number">Avec ou sans</span>
+                <div class="codeCIP">
+                    <h5 class="text">Code CIP :</h5>
+                    <span class="number"><?= ($info_cip_bdpm->code_cip13) ?></span>
+                </div>
+                <div class="containerLeftRight">
+                    <div class="leftIdenty">
+                        <div class="commercialDeclaration">
+                            <h5 class="text">Déclaration de commercialisation : </h5>
+                            <span class="number"><?= $info_cip_bdpm->date_commercialisation ?></span>
                         </div>
+                        <div class="prescription">
+                            <div class="checkTrueFalse">
+                                <h5 class="text">Prescription :</h5>
+                                <span class="true number">Avec ou sans</span>
+                            </div>
 
-                    </div>
-                    <div class="refund">
-                        <div class="checkTrueFalse">
-                            <h5 class="text">Remboursement :</h5>
-                            <span class="false number"><?= ($info_cip_bdpm->taux_remboursement)?$info_cip_bdpm->taux_remboursement : 'n/a' ?></span>
                         </div>
+                    </div>
+                    <div class="rightIdenty">
+                        <div class="refund">
+                            <div class="checkTrueFalse">
+                                <h5 class="text">Remboursement :</h5>
+                                <span
+                                    class="false number"><?= ($info_cip_bdpm->taux_remboursement)?$info_cip_bdpm->taux_remboursement : 'n/a' ?></span>
+                            </div>
 
+                        </div>
+                        <div class="price">
+                            <h5 class="text">Tarif moyen :</h5>
+                            <span
+                                class="number"><?= ($info_cip_bdpm->prix_2)?$info_cip_bdpm->prix_2.' €': 'n/a' ?></span>
+                        </div>
                     </div>
                 </div>
-                <div class="rightIdenty">
-                    <div class="codeCIP">
-                        <h5 class="text">Code CIP :</h5>
-                        <span class="number"><?= ($info_cip_bdpm->code_cip13) ?></span>
-                    </div>
-                    <div class="price">
-                        <h5 class="text">Tarif moyen :</h5>
-                        <span class="number"><?= ($info_cip_bdpm->prix_2)?$info_cip_bdpm->prix_2.' €': 'n/a' ?></span>
-                    </div>
-                </div>
+
             </div>
         </div>
     </div>
     <div class="containerCardInfoMedic">
         <div class="cardInfoMedic">
             <div class="infoMedic">
-                <h2>Notice</h2>
+                <h2>Symptôme</h2>
                 <div class="containerTextInfoMedic active">
                     <div class="textInfo">
                         ABACAVIR/LAMIVUDINE BIOGARAN contient deux substances actives qui sont utilisées pour
@@ -67,7 +72,7 @@
         </div>
         <div class="cardInfoMedic">
             <div class="infoMedic">
-                <h2>Effets Secondaires</h2>
+                <h2>Conseil d'utilisation</h2>
                 <div class="containerTextInfoMedic">
                     <div class="textInfo">
                         ABACAVIR/LAMIVUDINE BIOGARAN contient deux substances actives qui sont utilisées pour
@@ -91,7 +96,7 @@
         </div>
         <div class="cardInfoMedic">
             <div class="infoMedic">
-                <h2>Conseil d’utilisation</h2>
+                <h2>Effets Indésirables Eventuels</h2>
                 <div class="containerTextInfoMedic">
                     <div class="textInfo">
                         ABACAVIR/LAMIVUDINE BIOGARAN contient deux substances actives qui sont utilisées pour
@@ -166,10 +171,10 @@
 </main>
 
 <? else: ?>
-    <main>
-        <div class="image-not-found"></div>
-        <h1 class="not-found">Désolé ce médicament n'est pas connu par nos services.</h1>
-    </main>
+<main>
+    <div class="image-not-found"></div>
+    <h1 class="not-found">Désolé ce médicament n'est pas connu par nos services.</h1>
+</main>
 <? endif; ?>
 
 <?php include './views/partials/footer.php' ?>

@@ -20,7 +20,7 @@
 
 .containerCardIdentity .containerIdentityMedic .identityMedic {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between  ;
     padding: 10px;
  
 }
@@ -29,38 +29,40 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 8px;
+    width: 100%;    
 }
-
-.containerCardIdentity .containerIdentityMedic .identityMedic .leftIdenty .checkTrueFalse {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.containerCardIdentity .containerIdentityMedic .identityMedic .leftIdenty .checkTrueFalse .number {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 5px;
-    text-align: center;
-}
-
-
 .containerCardIdentity .containerIdentityMedic .identityMedic .rightIdenty .price .number {
-    font-size: 14px;
+    font-size: 15px;
 }
 .containerCardIdentity .containerIdentityMedic .identityMedic h5 {
-    font-size: 8px;
+    font-size: 11px;
+    margin: 5px 0;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #ffffff;
 }
 .containerCardIdentity .containerIdentityMedic .identityMedic .number {
-    font-size: 8px;
+    font-size: 11px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: #ffffff;
 }
-
+.containerCardIdentity .containerIdentityMedic .identityMedic {
+    display: flex;
+    flex-direction: column;
+}
+.containerCardIdentity .containerIdentityMedic .identityMedic .codeCIP {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.containerCardIdentity .containerIdentityMedic .identityMedic .codeCIP .number {
+    margin: 0 5px;
+}
+.containerCardIdentity .containerIdentityMedic .identityMedic .containerLeftRight {
+    display: flex;
+}
 .true {
     background-color: #2B6D20;
     padding: 5px;
