@@ -51,21 +51,7 @@
                 <h2>Symptôme</h2>
                 <div class="containerTextInfoMedic active">
                     <div class="textInfo">
-                        ABACAVIR/LAMIVUDINE BIOGARAN contient deux substances actives qui sont utilisées pour
-                        traiter
-                        l'infection par le VIH : l’abacavir et la lamivudine. Ces deux substances actives
-                        appartiennent
-                        à une classe de médicaments antirétroviraux appelés analogues nucléosidiques inhibiteurs de
-                        la
-                        transcriptase inverse (INTI).
-
-                        ABACAVIR/LAMIVUDINE BIOGARAN ne guérit pas complètement l'infection par le VIH ; il diminue
-                        la
-                        quantité de virus dans votre corps, et la maintient à un niveau bas. Il augmente également
-                        le
-                        nombre de cellules CD4 dans votre sang. Les cellules CD4 sont un type de globule blanc
-                        important
-                        pour aider votre corps à combattre les infections.
+                        <?= ($utilisations->symptomes)? $utilisations->symptomes : 'Désolé nous ne disposons pas de cette information.' ?>
                     </div>
                 </div>
             </div>
@@ -75,21 +61,7 @@
                 <h2>Conseil d'utilisation</h2>
                 <div class="containerTextInfoMedic">
                     <div class="textInfo">
-                        ABACAVIR/LAMIVUDINE BIOGARAN contient deux substances actives qui sont utilisées pour
-                        traiter
-                        l'infection par le VIH : l’abacavir et la lamivudine. Ces deux substances actives
-                        appartiennent
-                        à une classe de médicaments antirétroviraux appelés analogues nucléosidiques inhibiteurs de
-                        la
-                        transcriptase inverse (INTI).
-
-                        ABACAVIR/LAMIVUDINE BIOGARAN ne guérit pas complètement l'infection par le VIH ; il diminue
-                        la
-                        quantité de virus dans votre corps, et la maintient à un niveau bas. Il augmente également
-                        le
-                        nombre de cellules CD4 dans votre sang. Les cellules CD4 sont un type de globule blanc
-                        important
-                        pour aider votre corps à combattre les infections.
+                        <?= ($utilisations->conseil_utilisation)? $utilisations->conseil_utilisation : 'Désolé nous ne disposons pas de cette information.' ?>
                     </div>
                 </div>
             </div>
@@ -99,21 +71,7 @@
                 <h2>Effets Indésirables Eventuels</h2>
                 <div class="containerTextInfoMedic">
                     <div class="textInfo">
-                        ABACAVIR/LAMIVUDINE BIOGARAN contient deux substances actives qui sont utilisées pour
-                        traiter
-                        l'infection par le VIH : l’abacavir et la lamivudine. Ces deux substances actives
-                        appartiennent
-                        à une classe de médicaments antirétroviraux appelés analogues nucléosidiques inhibiteurs de
-                        la
-                        transcriptase inverse (INTI).
-
-                        ABACAVIR/LAMIVUDINE BIOGARAN ne guérit pas complètement l'infection par le VIH ; il diminue
-                        la
-                        quantité de virus dans votre corps, et la maintient à un niveau bas. Il augmente également
-                        le
-                        nombre de cellules CD4 dans votre sang. Les cellules CD4 sont un type de globule blanc
-                        important
-                        pour aider votre corps à combattre les infections.
+                        <?= ($utilisations->effets_indesirables)? $utliisations->effets_indesirables : 'Désolé nous ne disposons pas de cette information.' ?>
                     </div>
                 </div>
             </div>
@@ -123,21 +81,7 @@
                 <h2>Composition</h2>
                 <div class="containerTextInfoMedic">
                     <div class="textInfo">
-                        ABACAVIR/LAMIVUDINE BIOGARAN contient deux substances actives qui sont utilisées pour
-                        traiter
-                        l'infection par le VIH : l’abacavir et la lamivudine. Ces deux substances actives
-                        appartiennent
-                        à une classe de médicaments antirétroviraux appelés analogues nucléosidiques inhibiteurs de
-                        la
-                        transcriptase inverse (INTI).
-
-                        ABACAVIR/LAMIVUDINE BIOGARAN ne guérit pas complètement l'infection par le VIH ; il diminue
-                        la
-                        quantité de virus dans votre corps, et la maintient à un niveau bas. Il augmente également
-                        le
-                        nombre de cellules CD4 dans votre sang. Les cellules CD4 sont un type de globule blanc
-                        important
-                        pour aider votre corps à combattre les infections.
+                        <?= ($utilisations->composition)? $utilisations->composition : 'Désolé nous ne disposons pas de cette information.' ?>
                     </div>
                 </div>
             </div>
@@ -147,21 +91,7 @@
                 <h2>Equivalent</h2>
                 <div class="containerTextInfoMedic">
                     <div class="textInfo">
-                        ABACAVIR/LAMIVUDINE BIOGARAN contient deux substances actives qui sont utilisées pour
-                        traiter
-                        l'infection par le VIH : l’abacavir et la lamivudine. Ces deux substances actives
-                        appartiennent
-                        à une classe de médicaments antirétroviraux appelés analogues nucléosidiques inhibiteurs de
-                        la
-                        transcriptase inverse (INTI).
-
-                        ABACAVIR/LAMIVUDINE BIOGARAN ne guérit pas complètement l'infection par le VIH ; il diminue
-                        la
-                        quantité de virus dans votre corps, et la maintient à un niveau bas. Il augmente également
-                        le
-                        nombre de cellules CD4 dans votre sang. Les cellules CD4 sont un type de globule blanc
-                        important
-                        pour aider votre corps à combattre les infections.
+                        <?= ($utilisations->equivalents)? $utilisations->equivalents : 'Désolé nous ne disposons pas de cette information.' ?>
                     </div>
                 </div>
             </div>
