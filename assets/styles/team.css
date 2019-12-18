@@ -15,7 +15,6 @@ body{
     
 }
 .containerProject .containerArticleProject {
-    background-color: #0F354D;
     border-radius: 7px;
     margin: 16px 0;
     
@@ -26,16 +25,17 @@ body{
 }
 .containerProject .containerArticleProject .containerTextProject h3 {
     margin: 0;
-    color: #ffffff;
+    color: #0F354D;
     font-size: 20px;
     font-weight: 700;
 }
 .containerProject .containerArticleProject .containerTextProject .textArticle {
-    color: #FFFFFFCC;
+    color: #000000;
     font-size: 15px;
     
 }
 .containerProject .containerArticleProject .containerTextProject .bold {
+    color: #0F354D;
     font-weight: 900;
 }
 
@@ -59,12 +59,10 @@ body{
     background: url('../images/arnaud_skieur.png');
     background-size: cover;
     background-position: center;
-    border-radius: 8px;
-    border: 2px solid #0F354D;
+    border-radius: 50%;
     overflow: hidden;
     width: 120px;
-    height: 175px;
-    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+    height: 120px;
 }
 
 section.identity-container{
@@ -75,6 +73,8 @@ section.identity-container{
     margin-bottom: 25px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    text-align: center;
 }
 
 section.identity-container h2{
