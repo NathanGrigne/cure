@@ -48,6 +48,7 @@ body{
   margin: 10px;
   padding: 5px;
   width: 50%;
+  height: 25px;
   font-family: 'Montserrat', sans-serif;
   font-size: 10px;
   font-weight: 700;
@@ -58,7 +59,9 @@ body{
 }
 
 .button{
-  opacity: 0;
+  border-radius: 8px;
+  background: #0F354D;
+  color: #ffffff;
 }
 
 .infos-scan{
@@ -67,7 +70,7 @@ body{
   background: url('../images/questionMark.svg');
   background-size: cover;
   position: absolute;
-  bottom: 6.5%;
+  bottom: 10%;
   right: 15%;
 }
 
@@ -86,7 +89,7 @@ body{
   border-radius: 12px;
   padding: 30px 0;
   position: absolute;
-  bottom: -12px;
+  bottom: 0;
 }
 
 .infos-matrix{
@@ -100,7 +103,7 @@ body{
 .close{
   width: 16px;
   height: 16px;
-  background: url('../images/close.png');
+  background: url('../images/close.svg');
   background-size: cover;
   position: absolute;
   right: 10px;
@@ -110,7 +113,7 @@ body{
 .close2{
   width: 16px;
   height: 16px;
-  background: url('../images/close.png');
+  background: url('../images/close.svg');
   background-size: cover;
   position: absolute;
   right: 10px;
