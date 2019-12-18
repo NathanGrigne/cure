@@ -55,8 +55,48 @@ body{
     color: #0F354D;
 }
 
-.image-team{
-    background: url('../images/arnaud_skieur.png');
+.image-antoine{
+    background: url('../images/antoine.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+}
+
+.image-louis{
+    background: url('../images/louis.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+}
+
+.image-nathan{
+    background: url('../images/nathan.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+}
+
+.image-anthony{
+    background: url('../images/anthony.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+}
+
+.image-aurelien{
+    background: url('../images/aurelien.jpg');
     background-size: cover;
     background-position: center;
     border-radius: 50%;

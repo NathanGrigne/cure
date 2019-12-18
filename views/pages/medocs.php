@@ -49,7 +49,7 @@
         <div class="cardInfoMedic">
             <div class="infoMedic">
                 <h2>Symptôme</h2>
-                <div class="containerTextInfoMedic active">
+                <div class="containerTextInfoMedic">
                     <div class="textInfo">
                         <?= ($utilisations->symptomes)? $utilisations->symptomes : 'Désolé nous ne disposons pas de cette information.' ?>
                     </div>

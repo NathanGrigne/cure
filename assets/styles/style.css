@@ -9,7 +9,7 @@ body{
     height: 53px;
     background: #0F354D;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     position: fixed;
     top: 0;
@@ -17,12 +17,12 @@ body{
 }
 
 .logo-scan{
-    height: 24px;
+    height: 48px;
     width: auto;
 }
 
 .logo-header{
-    margin: 0 12vw 0 12vw;
+    margin-right: 10px 5% 0 0;
 }
 
 .navigation{
@@ -39,7 +39,7 @@ body{
 
 .navigation-list{
     width: 100vw;
-    margin: 15vh 0;
+    margin: 10vh 0;
     list-style: none;
     padding: 0;
     color: #fff;

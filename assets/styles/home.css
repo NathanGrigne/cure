@@ -15,55 +15,88 @@ main{
 /**
 **Project
 **/
-.containerProject {
-    padding: 16px;
+.container-project {
+    padding: 12px;
     font-family: 'Montserrat', sans-serif;
     
 }
-.containerProject .containerArticleProject {
+
+.container-project .container-article-project {
     border-radius: 7px;
     margin: 16px 0;
     
 }
-.containerProject .containerArticleProject .containerTextProject {
+
+.container-project .container-article-project .container-text-project {
     padding: 13px;
 }
 
-.containerProject .containerArticleProject .containerTextProject p {
-    color: #0F354DCC;
+.container-project h1 {
+    margin: 0;
+    color: #0F354D;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
 }
 
-
-
-.containerProject .containerArticleProject .containerTextProject .bold {
-    font-weight: 900;
+.container-project .container-article-project .container-text-project h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 800;
+    color: #000000;
+    text-align: center;
 }
-.containerProject .containerArticleProject .containerTextProject .boldTextArticle {
-    font-weight: 900;
-    font-size: 22px;
+
+.container-project .container-article-project.white .container-text-project p {
     color: #0F354D;
 }
-.containerProject .containerTitleProject {
+
+.container-project .container-article-project .container-text-project .text-article {
+    color: #000000;
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+.container-project .container-article-project .container-text-project .bold {
+    font-weight: 900;
+    color: #0F354D;
+}
+
+.container-project .container-title-project .scroll-down {
+    background-image: url('../images/scrollSearch.svg');
+    width: 34px;
+    height: 34px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.container-project .container-title-project {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.containerProject .callToActionScan h3 {
+
+.container-project .callToActionScan h3 {
     margin: 0;
     color: #0F354D;
     font-size: 25px;
     font-family: 'Montserrat', sans-serif;
+
     text-align: center;
     line-height: 30px;
 }
-.containerProject .callToActionScan {
+
+.container-project .callToActionScan {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.containerProject .callToActionScan .imgScan {
-    background-image: url('../images/scan_logo_blue.svg');
+.container-project .callToActionScan .imgScan {
+    background-image: url('../images/search_blue.svg');
+    margin: 20px 0 0 0;
     width: 126px;
     height: 126px;
     background-size: contain;
@@ -71,11 +104,12 @@ main{
     background-repeat: no-repeat;
     text-align: center;
 }
-.containerProject .containerArticleProject .containerTextProject ul {
-    margin: 0 10px ;
-    list-style-type: "\1F44D";
-    padding: 10px;
-    color: #0F354DCC;
+
+.container-project .container-article-project .container-text-project ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    color: #0F354D;
     
 }
 
@@ -83,10 +117,11 @@ main{
 **Illustration Project
 **/
 
-.containerIllustrationSearch {
+.container-illustration-search {
     margin: 24px;
 }
-.containerIllustrationSearch .illustrationSearch {
+
+.container-illustration-search .illustration-search {
     width: 100%;
     height: 30vh;
     background: url('../images/illustrationProjectPage.svg');
@@ -95,5 +130,24 @@ main{
     background-size: contain;
 }
 
+.container-illustration-search .container-scroll-project h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #0F354D; 
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+}
 
+.container-illustration-search .container-scroll-project .scrollImage {
+    width: 33.6px;
+    height: 19.2px;
+    background: url('../images/scrollSearch.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
 
+.bold-text-article{
+    font-weight: 700;
+}

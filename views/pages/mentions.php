@@ -7,7 +7,7 @@
                 <div class="mentions">
                     <h2>Définition des termes utilisés dans la politique de confidentialité
                     </h2>
-                    <div class="containerTextMentions active">
+                    <div class="containerTextMentions">
                         <div class="textInfo">
                             <p>On designera par la suite :</p>
                             <ul>

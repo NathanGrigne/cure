@@ -10,7 +10,7 @@ define('DB_NAME', 'medocs');
 try
 {
     $pdo = new PDO(
-        'mysql:dbname='.DB_NAME.';host='.DB_HOST.';port='.DB_PORT,
+        'mysql:dbname='.DB_NAME.';host='.DB_HOST.';port='.DB_PORT.';charset=utf8',
         DB_USER,
         DB_PASS
     );
