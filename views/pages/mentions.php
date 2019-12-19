@@ -1,6 +1,8 @@
+<!--Integration header-->
 <?php include './views/partials/header.php' ?>
 
     <main>
+        <!--Display all legals disclaimer for the website-->
         <h1>Mentions légales</h1>
         <div class="containerCardMentions">
             <div class="cardMentions">
@@ -321,4 +323,5 @@
         </div>
     </main>
     
+<!--Integration footer-->
 <?php include './views/partials/footer.php' ?>
