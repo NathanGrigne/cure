@@ -77,7 +77,7 @@
                 <h2>Effets Indésirables Eventuels</h2>
                 <div class="containerTextInfoMedic">
                     <div class="textInfo">
-                        <?= ($utilisations->effets_indesirables)? $utliisations->effets_indesirables : 'Désolé nous ne disposons pas de cette information.' ?>
+                        <?= ($utilisations->effets_indesirables)? $utilisations->effets_indesirables : 'Désolé nous ne disposons pas de cette information.' ?>
                     </div>
                 </div>
             </div>
