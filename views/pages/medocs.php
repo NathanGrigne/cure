@@ -1,8 +1,11 @@
+<!--Integration header-->
 <?php include './views/partials/header.php' ?>
 
+<!--Check if variables are empty, if it isn't display every infos on the medicine-->
 <? if(!empty($info_cip_bdpm) || !empty($info_cis_bdpm)): ?>
 
 <main>
+    <!--Creation card medicine-->
     <div class="containerCardIdentity">
         <h1><?= $name_medoc[0] ?></h1>
         <div class="containerIdentityMedic">
@@ -45,6 +48,7 @@
             </div>
         </div>
     </div>
+    <!--Display symptoms-->
     <div class="containerCardInfoMedic">
         <div class="cardInfoMedic">
             <div class="infoMedic">
@@ -56,6 +60,7 @@
                 </div>
             </div>
         </div>
+        <!--Display advice on use-->
         <div class="cardInfoMedic">
             <div class="infoMedic">
                 <h2>Conseil d'utilisation</h2>
@@ -66,6 +71,7 @@
                 </div>
             </div>
         </div>
+        <!--Display side effects-->
         <div class="cardInfoMedic">
             <div class="infoMedic">
                 <h2>Effets Indésirables Eventuels</h2>
@@ -76,6 +82,7 @@
                 </div>
             </div>
         </div>
+        <!--Display composition-->
         <div class="cardInfoMedic">
             <div class="infoMedic">
                 <h2>Composition</h2>
@@ -86,6 +93,7 @@
                 </div>
             </div>
         </div>
+        <!--Display equivalent medicine-->
         <div class="cardInfoMedic">
             <div class="infoMedic">
                 <h2>Equivalent</h2>
@@ -100,6 +108,7 @@
     </div>
 </main>
 
+<!--If variables are empty, display this text-->
 <? else: ?>
 <main>
     <div class="image-not-found"></div>
@@ -107,4 +116,5 @@
 </main>
 <? endif; ?>
 
+<!--Integration footer-->
 <?php include './views/partials/footer.php' ?>
