@@ -1,8 +1,11 @@
+<!--Integration header-->
 <?php include './views/partials/header.php' ?>
     
   <main class="search">
-  <div id="scandit-barcode-picker"></div>
+    <!--Creation div to scan DataMatrix-->
+    <div id="scandit-barcode-picker"></div>
     <div class="infos-scan-top"></div>
+    <!--Form to search the medicine by the name or the CIP code-->
     <form method="post">
       <input class="input-classic" type="text" name="research-name" placeholder="Entrez le nom du médicaments">
       <p>ou</p>
@@ -10,6 +13,7 @@
       <div class="infos-scan"></div>
       <input type="submit" class="button" placeholder="rechercher">
     </form>
+    <!--Explanation what is CIP code and where you can find it-->
     <div class="infos-cip hide">
       <div class="close"></div>
       <p>Le code CIP identifie chaque médicament remboursable dans la base de données nationale.</p>
@@ -21,6 +25,7 @@
         <div class="help"></div>
       </div>
     </div>
+    <!--Explanation what is DataMatrix and where you can find it-->
     <div class="infos-matrix hide">
       <div class="close2"></div>
       <p>La Datamatrix identifie chaque médicament remboursable dans la base de données nationale.</p>
@@ -33,5 +38,5 @@
     </div>
   </main>
 
-        
+  <!--Integration footer-->      
 <?php include './views/partials/footer.php' ?>
