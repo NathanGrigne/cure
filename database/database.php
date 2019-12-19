@@ -1,5 +1,6 @@
 <?php
 
+//Define location where find the database
 define('DB_HOST', 'localhost');
 define('DB_PORT', '8889');
 define('DB_PASS', 'root');
