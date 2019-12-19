@@ -6,10 +6,6 @@ Cure is a 100% independent web application. It allows users to find simplified d
 You can scan your medicine using the DataMatrix, which is on the box. 
 You can find it by the name and with the CIP code, a 13 digit-code. 
 
-## Usage example
-
-Exemple d'usage
-
 ## Meta
 
 Nathan Grigné – [@Nathan_Grigne](https://twitter.com/Nathan_Grigne) - grigne.nathan@gmail.com
