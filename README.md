@@ -1,4 +1,4 @@
-# Name
+# Cure
 Cure is a 100% independent web application. It allows users to find simplified drug information leaflets.
 
 ## Features
