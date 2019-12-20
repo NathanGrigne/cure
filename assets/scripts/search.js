@@ -3,10 +3,10 @@ const scanBottom = document.querySelector('.infos-scan')
 
 //Display help to find CIP code and DataMatrix
 scanTop.addEventListener('click', () =>{
-    infosCip.classList.remove('hide')
+    infosMatrix.classList.remove('hide')
 })
 scanBottom.addEventListener('click', () =>{
-    infosMatrix.classList.remove('hide')
+    infosCip.classList.remove('hide')
 })
 
 const close = document.querySelector('.close')
