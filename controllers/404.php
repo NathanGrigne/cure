@@ -1,3 +1,3 @@
 <?php
 
-var_dump('404');
+include 'views/pages/404.php';

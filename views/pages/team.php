@@ -31,7 +31,7 @@
     <div class="identity">
       <h2>Antoine</h2>
       <h2>Baudot</h2>
-      <h4>Front-End Developper</h4>
+      <h4>Front-End Developpeur</h4>
       <h4>Designer<h4>
     </div>
   </section>
@@ -53,7 +53,7 @@
     <div class="identity">
       <h2>nathan</h2>
       <h2>grigné</h2>
-      <h4>Front-End & Back-End Developper</h4>
+      <h4>Front-End & Back-End Developpeur</h4>
     </div>
   </section>
   <section class="identity-container">
@@ -74,7 +74,7 @@
     <div class="identity">
       <h2>aurelien</h2>
       <h2>sarrat</h2>
-      <h4>Front-End Developper</h4>
+      <h4>Front-End Developpeur</h4>
       <h4>Designer</h4>
     </div>
   </section>
