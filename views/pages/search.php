@@ -16,7 +16,7 @@
     <!--Explanation what is CIP code and where you can find it-->
     <div class="infos-cip hide">
       <div class="close"></div>
-      <p>Le code CIP identifie chaque médicament remboursable dans la base de données nationale.</p>
+      <p>Le code CIP identifie chaque médicament dans la base de données nationale.</p>
       <p class="no-margin">C'est un code composée de <span class="text-bold">7 à 13 chiffres.</span></p>
       <p>Le code CIP 13 est <span class="text-bold">est inscrit en clair à côté du DataMatrix</span>, de même que le numéro de lot et la date de péremption.</p>
       <p>Pour le trouver, cherchez sur <span class="text-bold">la boîte de votre médicament</span>, il se trouve à côté du code DataMatrix.</p>
@@ -28,7 +28,7 @@
     <!--Explanation what is DataMatrix and where you can find it-->
     <div class="infos-matrix hide">
       <div class="close2"></div>
-      <p>La Datamatrix identifie chaque médicament remboursable dans la base de données nationale.</p>
+      <p>La Datamatrix identifie chaque médicament dans la base de données nationale.</p>
       <p class="no-margin">Il s’agit d’un code de traçabilité qui se présente sous la forme d’<span class="text-bold">un carré constitué de points ou de carrés juxtaposés.</span></p>
       <p>La Datamatrix <span class="text-bold">est inscrite en clair à côté du code CIP</span>, de même que le numéro de lot et la date de péremption.</p>
       <p>Pour le trouver, cherchez sur <span class="text-bold">la boîte de votre médicament</span>, il se trouve à côté du code CIP.</p>
