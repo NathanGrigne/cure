@@ -1,6 +1,7 @@
 const titleMentions = document.querySelectorAll('.mentions h2')
 const containerTextMentions = document.querySelectorAll('.containerTextMentions')
 
+//Open or close the div, close the other when an other is open
 for(let i = 0; i<titleMentions.length;i++) {
   titleMentions[i].addEventListener(
       'click',

@@ -1,6 +1,8 @@
+<!--Integration header-->
 <?php include './views/partials/header.php' ?>
 
 <main>
+    <!--Integration little friendly illustration-->
     <div class="container-project">
         <div class="container-illustration-search">
             <div class="illustration-search">
@@ -8,6 +10,7 @@
             <div class="container-scroll-project">
             </div>
         </div>
+        <!--Explication what is cure-->
         <article class="container-article-project white">
             <div class="container-text-project">
                 <p class="text-article">
@@ -16,7 +19,7 @@
                 <p class="text-article">
                     Notre but, rendre <span class="bold">l’automédication</span> plus <span class="bold">accessible</span> afin que vous preniez <span class="bold">moins de risque.</span>
                 </p>
-                <p class="text-article bold-text-article">
+                <p class="bold-text-article">
                     Prenez moins de risque lors de votre automédication
                 </p>
                 <p class="text-article">
@@ -39,11 +42,12 @@
                 <p class="text-article">
                     Pour en découvrir plus sur vos médicaments ou pour tester Cure, cliquez sur le <span class="bold">bouton scannez ci-dessous</span>.
                 <p>
-                <p class="boldtext-article">
+                <p class="bold-text-article">
                     Avec Cure vous avez les clés en main pour vous soigner !
                 </p>
             </div>
         </article>
+        <!--Call to action, scan your medicine-->
         <div class="callToActionScan">
             <h3> Votre recherche ! </h3>
             <a href="<? URL ?>search"><div class="imgScan"></div></a>
@@ -51,4 +55,5 @@
     </div>
 </main>
 
+<!--Integration header-->
 <?php include './views/partials/footer.php' ?>

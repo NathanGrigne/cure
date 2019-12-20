@@ -1,6 +1,8 @@
+<!--Integration header-->
 <?php include './views/partials/header.php' ?>
 
     <main class="contact">
+        <!--Formulaire to contact the team-->
         <div class="contact-form-js">
             <h1 class="contact-title-top">Nous</h1>
             <h1 class="contact-title-bottom">contacter</h1>
@@ -12,6 +14,7 @@
             </form>
             <button class="send-form" type="submit" value="Submit">Envoyer</button>
         </div>
+        <!--Animation when mail is send-->
         <div class="contact-check-js">
             <img src="<?= URL ?>assets/images/check-emoticon.png" alt="Green check"/>
         </div>
@@ -21,5 +24,6 @@
             <img src="<?= URL ?>assets/images/write-emoticon.png" alt="Blue Write"/>
         </div>
     </main>
-    
+
+<!--Integration footer-->
 <?php include './views/partials/footer.php' ?>

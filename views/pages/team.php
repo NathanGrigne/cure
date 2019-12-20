@@ -1,6 +1,7 @@
 <?php include './views/partials/header.php' ?>
 
 <main class="team">
+  <!--Container text, explain who we are-->
   <div class="containerProject">
     <article class="containerArticleProject">
       <div class="containerTextProject">
@@ -21,20 +22,23 @@
       </div>
     </article>
   </div>
+  <!--Presentation of the team-->
   <h1 class="team-title">L'Équipe</h1>
   <section class="identity-container">
     <div class="image-antoine">
     </div>
+    <!--Presentation Antoine Baudot-->
     <div class="identity">
       <h2>Antoine</h2>
       <h2>Baudot</h2>
-      <h4>Front-End Developper</h4>
+      <h4>Front-End Developpeur</h4>
       <h4>Designer<h4>
     </div>
   </section>
   <section class="identity-container">
     <div class="image-louis">
     </div>
+    <!--Presentation Louis Gazel-->
     <div class="identity">
       <h2>louis</h2>
       <h2>gazel</h2>
@@ -45,15 +49,17 @@
   <section class="identity-container">
     <div class="image-nathan">
     </div>
+    <!--Presentation Nathan Grigné-->
     <div class="identity">
       <h2>nathan</h2>
       <h2>grigné</h2>
-      <h4>Front-End & Back-End Developper</h4>
+      <h4>Front-End & Back-End Developpeur</h4>
     </div>
   </section>
   <section class="identity-container">
     <div class="image-anthony">
     </div>
+    <!--Presentation Anthony Vila-->
     <div class="identity">
       <h2>anthony</h2>
       <h2>vila</h2>
@@ -64,10 +70,11 @@
   <section class="identity-container">
     <div class="image-aurelien">
     </div>
+    <!--Presentation Aurelien Sarrat-->
     <div class="identity">
       <h2>aurelien</h2>
       <h2>sarrat</h2>
-      <h4>Front-End Developper</h4>
+      <h4>Front-End Developpeur</h4>
       <h4>Designer</h4>
     </div>
   </section>

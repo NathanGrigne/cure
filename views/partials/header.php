@@ -10,9 +10,9 @@
         <link rel="stylesheet" href="<?= URL ?>assets/styles/style.css">
         <? endif; ?>
         <link rel="stylesheet" href="<?= URL ?>assets/styles/<?= $controller ?>.css">
-        <link rel="stylesheet" herf="<?= URL ?>assets/styles/setup.css">
     </head>
     <body>
+        <!--Load this part if the page is different as Welcome-->
         <? if($q != 'welcome'): ?>
         <header class="header">
             <a href="<?= URL ?>search"><img src="<?= URL ?>assets/images/search.svg" alt="" class="logo-scan logo-header"></a>
