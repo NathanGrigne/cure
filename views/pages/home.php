@@ -19,7 +19,7 @@
                 <p class="text-article">
                     Notre but, rendre <span class="bold">l’automédication</span> plus <span class="bold">accessible</span> afin que vous preniez <span class="bold">moins de risque.</span>
                 </p>
-                <p class="text-article bold-text-article">
+                <p class="bold-text-article">
                     Prenez moins de risque lors de votre automédication
                 </p>
                 <p class="text-article">
@@ -42,7 +42,7 @@
                 <p class="text-article">
                     Pour en découvrir plus sur vos médicaments ou pour tester Cure, cliquez sur le <span class="bold">bouton scannez ci-dessous</span>.
                 <p>
-                <p class="boldtext-article">
+                <p class="bold-text-article">
                     Avec Cure vous avez les clés en main pour vous soigner !
                 </p>
             </div>
